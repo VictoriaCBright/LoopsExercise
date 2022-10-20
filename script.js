@@ -6,7 +6,7 @@ for (i = 1; i < 7; ++i) {
 
 //2 
 
-for (i = 5; i < 25; i +=4) {
+for (i = 5; i <= 25; i +=4) {
     console.log(i);
 };
 
@@ -16,8 +16,8 @@ const wizards = ['Harry Potter', 'Hermione Granger', 'Ron Weasley'];
 
 //3b
 
-for (i = 0; i < wizards.length; i++) {
-    console.log(wizards[i]);
+for (friends of wizards) {
+    console.log(friends);
 };
 
 //4a
@@ -39,10 +39,10 @@ console.log(harryPotterMovies);
 const hogwartsHouses = [`Gryffindor`, `Hufflepuff`, `Ravenclaw`, `Slytherin`];
 
 //5b
-//come back to this
+ 
 for (houses of hogwartsHouses) {
-    for (house of hogwartsHouses) {
-        console.log(house);
+    for (letter of hogwartsHouses) {
+        console.log(letter);
     }
 };
 
@@ -52,9 +52,22 @@ const quote = [`Yer`, `A`, `Wizard`, `Harry`];
 
 //6b
 
-//come back to this
+let quoteLine = ``;
+for(i = 0; i > quote.length; i++) {
+    quoteLine = quoteLine + quote[i] + ``;
+};
+
+console.log(quoteLine);
 
 
 //7
 
-//come back to this
+for(i=1; i<=25; i++){ 
+    if (i%3 === 0 && i % 5 === 0) {
+        console.log(`Expecto Patronum`);
+    } else if (i%3 === 0) {
+        console.log(`Expecto`);
+    } else if (1%5 === 0) {
+        console.log(`Patronum`);
+    } else {console.log(i);
+} };
